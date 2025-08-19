@@ -1,0 +1,49 @@
+.view-orders-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.order-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+}
+
+.items-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.item-card {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.5rem;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+
+.item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.save-btn {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background-color: #0056b3;
+}
